@@ -20,7 +20,7 @@ public:
         int ans = a ^ b;
         while (ans)
         {
-            ans = (ans & (ans - 1));
+            ans = (ans & (ans - 1));  //Bria kerningams algorithm
             count++;
         }
         return count;
